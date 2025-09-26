@@ -14,7 +14,7 @@ body {
 .main {
   flex: 1; /* occupa tutto lo spazio disponibile */
   padding: min(4rem, 5%);
-  font-size: clamp(1.2rem, 8vw, 2rem);
+  font-size: clamp(1.2rem, 8vw, 1.8rem);
 }
 
 .title {
