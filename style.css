@@ -11,22 +11,40 @@ body {
   font-family: sans-serif;
 }
 
-main {
+.main {
   flex: 1; /* occupa tutto lo spazio disponibile */
-  padding: 3em;
+  padding: min(4rem, 5%);
+  font-size: clamp(0.5rem, calc(0.8vw + 0.5rem), 1.5rem);
 }
 
-#title {
-  color: #52C1F7;
-  font-size: 5em;
+.title {
+  color: #53C2F7;
+  font-size: clamp(2.5rem, calc(8vw + 1rem), 5rem);
   font-weight: bold;
-  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-footer {
+.footer {
   color: #FFFFFF;
-  background: #52C1F7;
-  text-align: right;
+  background: #53C2F7;
   padding: 1em;
   padding-right: 5em;
+}
+
+.contacts {
+  width: fit-content;
+  padding-right: 2em;
+  line-height: 1.6;
+  text-align: left; 
+  margin-left: auto;
+}
+
+.contacts a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: #2575A8;
+  text-decoration: underline;
 }
