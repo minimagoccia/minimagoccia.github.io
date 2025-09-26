@@ -14,12 +14,12 @@ body {
 .main {
   flex: 1; /* occupa tutto lo spazio disponibile */
   padding: min(4rem, 5%);
-  font-size: clamp(1.2rem, 7vw, 2rem);
+  font-size: clamp(1.2rem, 8vw, 2rem);
 }
 
 .title {
   color: #53C2F7;
-  font-size: clamp(2.5rem, calc(10vw + 1rem), 5rem);
+  font-size: clamp(3rem, calc(4vw + 1rem), 8rem);
   font-weight: bold;
   margin-bottom: 0.5em;
 }
