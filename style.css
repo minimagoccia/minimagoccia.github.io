@@ -1,0 +1,32 @@
+
+html, body {
+  height: 100%; /* il corpo occupa tutto lo schermo */
+  margin: 0;
+}
+
+body {
+  background: #EDEDED;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+main {
+  flex: 1; /* occupa tutto lo spazio disponibile */
+  padding: 3em;
+}
+
+#title {
+  color: #52C1F7;
+  font-size: 5em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+footer {
+  color: #FFF8;
+  background: #52C1F7;
+  text-align: right;
+  padding: 1em;
+  padding-right: 5em;
+}
