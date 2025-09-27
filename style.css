@@ -9,19 +9,21 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
+  font-size: clamp(1rem, calc(1.5vh + 0.5rem), 2rem);
 }
 
 .main {
   flex: 1; /* occupa tutto lo spazio disponibile */
-  padding: min(4rem, 5%);
-  font-size: clamp(1.2rem, 8vw, 1.8rem);
+  padding: min(4rem, 6vmin);
 }
 
 .title {
   color: #53C2F7;
-  font-size: clamp(3rem, calc(4vw + 1rem), 8rem);
+  font-size: clamp(3rem, calc(6vh + 1rem), 6.5rem);
   font-weight: bold;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 .footer {
@@ -29,6 +31,7 @@ body {
   background: #53C2F7;
   padding: 1em;
   padding-right: 5em;
+  font-size: 0.8em;
 }
 
 .contacts {
